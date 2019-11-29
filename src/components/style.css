@@ -1,0 +1,43 @@
+.moviedetails {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.9);
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.moviedetails\_inner {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    margin: auto;
+    border-radius: 20px;
+    background: white;
+}
+
+.moviedetails_title {
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+}
+
+.moviedetails_subtitle {
+    color: rgba(255, 255, 255, 0.65);
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.moviedetails_text {
+    color: rgba(255, 255, 255, 0.65);
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
